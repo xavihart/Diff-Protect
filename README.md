@@ -3,7 +3,7 @@
 
 <h2>Toward effective protection against diffusion-based mimicry through score distillation</h2>
 
-Project lead by **[Haotian Xue](https://xavihart.github.io/)** from GaTech, advised by  **[Yongxin Chen](https://xavihart.github.io/)**.
+Project lead by **[Haotian Xue](https://xavihart.github.io/)** Ph.D. student from GaTech, advised by  Prof. **[Yongxin Chen](https://xavihart.github.io/)**.
 
 
 </div>
