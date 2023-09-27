@@ -109,17 +109,4 @@ the output includes: `[NAME]_attacked.png` which is the attacked image, `[NAME]_
 
 
 
-
-<figure>
-
-<img src="out/advdm_eps16_steps100_gmode+/to_protect/suzume_attacked.png" alt="drawing" width="200"/>
-  <figcaption>Protection-AdvDM</figcaption>
-</figure>
-
-<img src="out/advdm_eps16_steps100_gmode+/to_protect/suzume_attacked.png" alt="drawing" width="200"/>
-  <figcaption>Protection-AdvDM</figcaption>
-</figure>
-
-<img src="out/advdm_eps16_steps100_gmode+/to_protect/suzume_attacked.png" alt="drawing" width="200"/>
-  <figcaption>Protection-AdvDM</figcaption>
-</figure>
+<img src="out/advdm_eps16_steps100_gmode+/to_protect/suzume_attacked.png" alt="drawing" width="200"/>  <img src="out/mist_eps16_steps100_gmode+/to_protect/suzume_attacked.png" alt="drawing" width="200"/> <img src="out/sds_eps16_steps100_gmode-/to_protect/suzume_attacked.png" alt="drawing" width="200"/>
