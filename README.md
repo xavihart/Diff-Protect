@@ -5,16 +5,28 @@
 
 Project lead by **[Haotian Xue](https://xavihart.github.io/)** from GaTech, advised by  **[Yongxin Chen](https://xavihart.github.io/)**.
 
-This work is along the same line with Mist [https://mist-documentation.readthedocs.io/], thanks for the support of Xiaoyu Wu and Chumeng Liang from the Mist team.
-
 
 </div>
+
 
 
 ![](test_images/media/teaser.png)
 
 
 TL;DR : a more effective protection against malicious diffusion model editing, faster speed, lower GPU occupation
+
+## Introduction
+
+Our work is along the same line with Mist [https://mist-documentation.readthedocs.io/], we aim to make Mist cheaper to run, by exploring some new properties behind the protection.
+
+
+Thanks for the support of **[Chumeng Liang](./)** and **[Xiaoyu Wu](./)** from the Mist team.
+
+
+## Updates
+- [09/27/2023] Paper will be released soon!
+- [09/27/2023] Our repo is alive!
+
 
 ## Quick Setup
 
@@ -98,3 +110,16 @@ the output includes: `[NAME]_attacked.png` which is the attacked image, `[NAME]_
 
 
 
+<figure>
+
+<img src="out/advdm_eps16_steps100_gmode+/to_protect/suzume_attacked.png" alt="drawing" width="200"/>
+  <figcaption>Protection-AdvDM</figcaption>
+</figure>
+
+<img src="out/advdm_eps16_steps100_gmode+/to_protect/suzume_attacked.png" alt="drawing" width="200"/>
+  <figcaption>Protection-AdvDM</figcaption>
+</figure>
+
+<img src="out/advdm_eps16_steps100_gmode+/to_protect/suzume_attacked.png" alt="drawing" width="200"/>
+  <figcaption>Protection-AdvDM</figcaption>
+</figure>
