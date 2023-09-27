@@ -110,3 +110,5 @@ the output includes: `[NAME]_attacked.png` which is the attacked image, `[NAME]_
 
 
 <img src="out/advdm_eps16_steps100_gmode+/to_protect/suzume_attacked.png" alt="drawing" width="200"/>  <img src="out/mist_eps16_steps100_gmode+/to_protect/suzume_attacked.png" alt="drawing" width="200"/> <img src="out/sds_eps16_steps100_gmode-/to_protect/suzume_attacked.png" alt="drawing" width="200"/>
+
+[From let to right]: AdvDM, Mist, SDS(-), using eps=16, SDS-version is much more effective than the previous two methods
