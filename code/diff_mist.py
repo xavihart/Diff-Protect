@@ -395,7 +395,7 @@ def main(cfg : DictConfig):
     
     img_paths = glob.glob(img_path+'/*.png') + glob.glob(img_path+'/*.jpg') + glob.glob(img_path+'/*.jpeg')
     
-    img_paths.sort(key=lambda x: int(x[x.rfind('/')+1:x.rfind('.')]))
+    # img_paths.sort(key=lambda x: int(x[x.rfind('/')+1:x.rfind('.')]))
     
     img_path = img_path[:args.max_exp_num]
     

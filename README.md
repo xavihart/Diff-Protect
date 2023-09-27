@@ -1,6 +1,18 @@
 
+<div align="center">
+
+<h2>Toward effective protection against diffusion-based mimicry through score distillation</h2>
+
+Project lead by **[Haotian Xue](https://xavihart.github.io/)** from GaTech
 
 
+</div>
+
+
+![](test_images/media/teaser.png)
+
+
+TL;DR : a more effective protection against malicious diffusion model editing, faster speed, lower GPU occupation
 
 ## Quick Setup
 
@@ -16,8 +28,8 @@ Download the checkpoint of LDM [Stable-diffusion-model v1.4 checkpoint]
 
 ```
 wget -c https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt
-mkdir -p  models/ldm/stable-diffusion-v1
-mv sd-v1-4.ckpt models/ldm/stable-diffusion-v1/model.ckpt
+
+mv sd-v1-4.ckpt ckpt/model.ckpt
 ```
 
 
