@@ -3,7 +3,9 @@
 
 <h2>Toward effective protection against diffusion-based mimicry through score distillation</h2>
 
-Project lead by **[Haotian Xue](https://xavihart.github.io/)** from GaTech
+Project lead by **[Haotian Xue](https://xavihart.github.io/)** from GaTech, advised by  **[Yongxin Chen](https://xavihart.github.io/)**.
+
+This work is along the same line with Mist [https://mist-documentation.readthedocs.io/], thanks for the support of Xiaoyu Wu and Chumeng Liang from the Mist team.
 
 
 </div>
@@ -88,6 +90,10 @@ SDST(-):
 ```
 python code/diff_mist.py attack.mode='sds' attack.g_mode='-' attack.using_target=True
 ```
+
+the output includes: `[NAME]_attacked.png` which is the attacked image, `[NAME]_multistep.png` which is the SDEdit results, and `[NAME]_onestep.png` which is the onestep x_0 prediction results.
+
+
 
 
 
