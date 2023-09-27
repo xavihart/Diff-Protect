@@ -17,7 +17,7 @@ TL;DR : a more effective protection against malicious diffusion model editing, f
 
 ## Introduction
 
-Our work is along the same line with Mist [https://mist-documentation.readthedocs.io/], we aim to make Mist cheaper to run, by exploring some new properties behind the protection.
+Our work is along the same line with Mist [https://mist-documentation.readthedocs.io/], we aim to make Mist cheaper to run, by exploring some new interesting properties behind the protection, new properties will be merged into the latest version Mist. 
 
 
 Thanks for the support of **[Chumeng Liang](./)** and **[Xiaoyu Wu](./)** from the Mist team.
