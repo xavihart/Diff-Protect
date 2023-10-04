@@ -208,9 +208,14 @@ class Linf_PGD():
                 # actual_step_size = self.step_size - (self.step_size - self.step_size / 100) / self.iters * i 
                 actual_step_size = self.step_size
                 # SDS update, with only forward function
+                
+                X_adv.requires_grad_(True)
+                z_adv = dm.get_first_stage_encoding(dm.encode_first_stage(X_adv)).to(X.device)
+                
+                z = z_adv.clone().detach()
+
                 with torch.no_grad():
                     # to latent
-                    z = dm.get_first_stage_encoding(dm.encode_first_stage(X_adv)).to(X.device)
                     
                     # sample noise
                     T = dm.num_timesteps
@@ -237,14 +242,14 @@ class Linf_PGD():
 
                     loss = grad.norm(p=2).cpu().item()
                     # print(loss)
-                    loss_all.append(loss)
+                    # loss_all.append(loss)
                 
                 torch.cuda.empty_cache()
                 # get gradient wrt VAE (with gradient)
-                X_adv = X_adv.clone().detach()
-                X_adv.requires_grad_(True)
-                z = dm.get_first_stage_encoding(dm.encode_first_stage(X_adv)).to(X.device)
-                z.backward(gradient=grad)
+                # X_adv = X_adv.clone().detach()
+                # X_adv.requires_grad_(True)
+                # z = dm.get_first_stage_encoding(dm.encode_first_stage(X_adv)).to(X.device)
+                z_adv.backward(gradient=grad)
                 g_x = X_adv.grad.detach()
 
                 if using_target:
