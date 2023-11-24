@@ -3,7 +3,9 @@
 
 <h2>Toward effective protection against diffusion-based mimicry through score distillation</h2>
 
-Project lead by **[Haotian Xue](https://xavihart.github.io/)** Ph.D. student from GaTech, advised by  Prof. **[Yongxin Chen](https://xavihart.github.io/)**. Our work is along the same line with [Mist](https://mist-documentation.readthedocs.io/), 
+Project lead by **[Haotian Xue](https://xavihart.github.io/)** Ph.D. student from GaTech, advised by  Prof. **[Yongxin Chen](https://xavihart.github.io/)**.
+
+ Our work is along the same line with [Mist](https://mist-documentation.readthedocs.io/), 
 thanks for the support of **[Chumeng Liang](./)** and **[Xiaoyu Wu](./)** from the Mist team.
 
 
@@ -14,12 +16,11 @@ thanks for the support of **[Chumeng Liang](./)** and **[Xiaoyu Wu](./)** from t
 
 ![](test_images/media/teaser.png)
 
-TL;DR : a more effective protection against malicious diffusion model editing, faster speed, lower GPU occupation
-
+TL;DR : novel insights into attacks agasint LDM, a more effective protection against malicious diffusion model editing
 
 
 ## Updates
-- [11/24/2023] Paper finally shown on [Arxiv](https://arxiv.org/abs/2311.12832): 
+- [11/24/2023] Paper finally shown on [Arxiv](https://arxiv.org/abs/2311.12832)
 - [09/27/2023] Paper will be released soon!
 - [09/27/2023] Our repo is alive!
 
