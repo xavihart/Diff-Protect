@@ -45,7 +45,7 @@ Download the checkpoint of LDM [Stable-diffusion-model v1.4 checkpoint]
 
 ```
 wget -c https://huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt
-
+mkdir ckpt
 mv sd-v1-4.ckpt ckpt/model.ckpt
 ```
 

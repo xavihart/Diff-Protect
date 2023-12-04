@@ -2,3 +2,6 @@ ckpt/
 outputs/
 hub/
 
+__pycache__
+*.py[cod]
+*.sw[pon]
