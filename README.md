@@ -20,6 +20,7 @@ TL;DR : novel insights into attacks agasint LDM, a more effective protection aga
 
 
 ## Updates
+- [01/15/2024] 🎉 Our paper is accepted to ICLR'2024!
 - [11/24/2023] Paper finally shown on [Arxiv](https://arxiv.org/abs/2311.12832)
 - [09/27/2023] Paper will be released soon!
 - [09/27/2023] Our repo is alive!
