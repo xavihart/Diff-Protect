@@ -3,10 +3,10 @@
 
 <h2>Toward effective protection against diffusion-based mimicry through score distillation [ICLR'2024]</h2>
 
-Project lead by **[Haotian Xue](https://xavihart.github.io/)** Ph.D. student from GaTech, advised by  Prof. **[Yongxin Chen](https://xavihart.github.io/)**.
+**[Haotian Xue <sup>1](https://xavihart.github.io/), [Chumeng Liang <sup>2,3](https://caradryanliang.github.io/), [Xiaoyu Wu <sup>2](https://openreview.net/profile?id=~Xiaoyu_Wu1), and [Yongxin Chen <sup>1](https://yongxin.ae.gatech.edu/)**
 
- Our work is along the same line with [Mist](https://mist-documentation.readthedocs.io/), 
-thanks for the support of **[Chumeng Liang](./)** and **[Xiaoyu Wu](./)** from the Mist team.
+
+<sup>1</sup> Georgia Tech <sup>2</sup> SJTU <sup>3</sup> USC
 
 
 </div>
