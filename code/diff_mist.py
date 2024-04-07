@@ -318,8 +318,8 @@ def infer(img: PIL.Image.Image, config, tar_img: PIL.Image.Image = None, diff_pg
         
     
     editor = SDEdit(net=net)
-    edit_multi_step = editor.edit_list(attack_output, restep=None, t_list=[0.01, 0.05, 0.1, 0.2, 0.3])
-    edit_one_step   = editor.edit_list(attack_output, restep='ddim100')
+    edit_one_step = editor.edit_list(attack_output, restep=None, t_list=[0.01, 0.05, 0.1, 0.2, 0.3])
+    edit_multi_step   = editor.edit_list(attack_output, restep='ddim100')
         
     
     # print(net(attack_output, components=True))
@@ -328,7 +328,8 @@ def infer(img: PIL.Image.Image, config, tar_img: PIL.Image.Image = None, diff_pg
     save_adv = torch.clamp((output + 1.0) / 2.0, min=0.0, max=1.0).detach()
     grid_adv = 255. * rearrange(save_adv, 'c h w -> h w c').cpu().numpy()
     grid_adv = grid_adv
-    return grid_adv, edit_multi_step, edit_one_step
+    return grid_adv,  edit_one_step, edit_multi_step
+
 
 
 # Test the script with command: python mist_v2.py 16 100 512 1 2 1
